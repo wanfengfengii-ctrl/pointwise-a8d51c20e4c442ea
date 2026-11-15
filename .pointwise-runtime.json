@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    ["python3", "--version"]
+  ],
+  "verify": {
+    "argv": ["python3", "-I", "verify.py"]
+  },
+  "demo": {
+    "argv": ["python3", "-I", "demo.py"]
+  }
+}

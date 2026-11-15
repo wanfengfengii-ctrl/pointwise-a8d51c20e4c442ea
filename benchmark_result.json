@@ -1,0 +1,53 @@
+{
+  "scale": {
+    "records": 100000,
+    "noise_aliases": 50000,
+    "noise_chains": 10000,
+    "chain_depth": 5
+  },
+  "build_seconds": 0.396524,
+  "local_alias_revision": {
+    "changed_edges": 1,
+    "node_visits": 5,
+    "record_touches": 0,
+    "min_seconds_over_20": 3.2125e-05,
+    "returned": {
+      "root2": 100000,
+      "src": 0
+    }
+  },
+  "local_row_replacement": {
+    "changed_rows": 1,
+    "node_visits": 1,
+    "record_touches": 1,
+    "min_seconds_over_20": 1.95e-05,
+    "returned": {
+      "src": 100008
+    }
+  },
+  "full_rebuild_baseline_alias": {
+    "seconds": 0.048367,
+    "returned": {
+      "root2": 100000,
+      "src": 0
+    },
+    "speedup_x": 1505.6
+  },
+  "full_rebuild_baseline_row": {
+    "seconds": 0.0445,
+    "returned": {
+      "src": 100008
+    },
+    "speedup_x": 2282.0
+  },
+  "memory": {
+    "single_store_tracemalloc_peak_mb": 44.23,
+    "single_store_tracemalloc_current_mb": 28.61,
+    "process_peak_rss_mb": 117.84,
+    "records": 100000,
+    "alias_edges": 50000,
+    "reverse_edge_sets": 50000,
+    "source_subtotals": 1,
+    "canonical_totals": 1
+  }
+}
